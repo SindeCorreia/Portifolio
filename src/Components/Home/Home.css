@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+}
+.Bio{
+    width:40%;
+    height:550px;
+    margin: 0 auto;
+    background: linear-gradient(#87ceeb,#e0f6ff)
+}  
+.Random{
+    width:40%;
+    height:550px;
+    margin: 0 auto;
+    background: linear-gradient(#87ceeb,#e0f6ff)
+}     

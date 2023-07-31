@@ -1,0 +1,20 @@
+.game{
+    height: 700px;
+    padding: 20px;
+
+}
+.gameup{
+    background-color: brown;
+    display: flex;
+    justify-content:  space-between;
+    height: 260px;
+    margin: 20px;
+}
+.gamedown{
+    background-color:rgb(13, 114, 55);
+    display: flex;
+    justify-content:  space-between;
+    height: 260px;   
+    margin: 20px;
+}
+

@@ -1,0 +1,20 @@
+.RandomChoise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px; 
+    
+}
+.Profile{
+    width: 250px;
+    margin: auto;
+    border-radius:50%
+
+}
+.tt{
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    width:400px ;
+}
