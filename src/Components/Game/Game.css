@@ -4,17 +4,39 @@
 
 }
 .gameup{
-    background-color: brown;
     display: flex;
     justify-content:  space-between;
     height: 260px;
     margin: 20px;
 }
 .gamedown{
-    background-color:rgb(13, 114, 55);
     display: flex;
     justify-content:  space-between;
     height: 260px;   
     margin: 20px;
 }
+.Game1{
+    background-color: rgb(168, 173, 98);
+    width:30%;
+}
+.Game2{
+background-color:#acafac;
+width:30%;
 
+}
+.Game3{
+    background-color:#acafac;
+    width:30%;    
+}
+.Game4{   
+    background-color: #acafac;
+    width:30%;
+}
+.Game5{ 
+    background-color: #acafac;
+    width:30%;
+}
+.Game6{
+    background-color:#acafac;
+    width:30%;
+}

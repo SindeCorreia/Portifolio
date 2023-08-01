@@ -2,6 +2,21 @@
     display:flex;
     background-color:#082A4D;
     height:100px;
-    justify-content: space-between;
-
 }
+.Navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    padding: 35px;  
+  }
+  
+.Navbar-left {
+    margin: auto;
+    padding: 30px;
+    padding-right: 17%;
+  }
+.Navbar-right {
+    display: flex;
+    margin: auto;
+  }
+  

@@ -2,19 +2,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 550px; 
-    
+    height: 550px;     
 }
-.Profile{
+.pictures{ 
+    display: flex;
     width: 250px;
     margin: auto;
-    border-radius:50%
+    padding: 70px;
+    border-radius:50%;
 
 }
-.tt{
- display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: blueviolet;
+.Profile{
+    display: flex;
+    background-color: #082A4D;
     width:400px ;
+    border-radius:50%
+
+
 }

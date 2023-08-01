@@ -5,8 +5,8 @@ function RandomChoise  () {
   return (
     <div>
         <div className='RandomChoise' >
-          <div className='tt'>
-            <img src={Profile} className='Profile' alt="profile" />
+          <div className='Profile'>
+            <img src={Profile} className='pictures' alt="profile" />
           </div>
         </div>
     </div>

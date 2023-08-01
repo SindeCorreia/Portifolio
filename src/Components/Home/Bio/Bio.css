@@ -1,13 +1,21 @@
 .Link{
     display: flex;
+    text-decoration: none;
+    color: white;
 }
-.Linkedin{
+.Linkedin a {
+    text-decoration: none;
+    color: white;
     width: 170px;
     background-color:#0A66C2;
     margin: auto;
 }
-.GitHub{
+.GitHub a {
+    text-decoration: none;
+    color: white;
     width: 170px;
     background-color:#141516;
     margin: auto;
 }
+.description
+{color: white;}
