@@ -2,21 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 550px;     
-}
-.pictures{ 
+    height: 550px; 
+} 
+.Avatar{ 
     display: flex;
     width: 250px;
     margin: auto;
     padding: 70px;
     border-radius:50%;
-
 }
-.Profile{
+.wheel{
     display: flex;
     background-color: #082A4D;
     width:400px ;
     border-radius:50%
-
-
 }

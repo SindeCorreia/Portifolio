@@ -18,25 +18,32 @@
 .Game1{
     background-color: rgb(168, 173, 98);
     width:30%;
+    overflow: hidden;
 }
 .Game2{
 background-color:#acafac;
 width:30%;
+overflow: hidden;
+
 
 }
 .Game3{
     background-color:#acafac;
-    width:30%;    
+    width:30%;   
+    overflow: hidden;
 }
 .Game4{   
     background-color: #acafac;
     width:30%;
+    overflow: hidden;
 }
 .Game5{ 
     background-color: #acafac;
     width:30%;
+    overflow: hidden;
 }
 .Game6{
     background-color:#acafac;
     width:30%;
+    overflow: hidden;
 }

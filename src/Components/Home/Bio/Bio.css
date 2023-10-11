@@ -19,3 +19,13 @@
 }
 .description
 {color: white;}
+.Linkedin{
+    width: 170px;
+    background-color:#0A66C2;
+    margin: auto;
+}
+.GitHub{
+    width: 170px;
+    background-color:#141516;
+    margin: auto;
+} 

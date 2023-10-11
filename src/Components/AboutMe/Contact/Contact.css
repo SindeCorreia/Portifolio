@@ -1,20 +1,35 @@
+.Profile{
+    display: flex;
+    background-color: #082A4D;
+    width:160px ;
+    border-radius:50%
+
+}
+.Details{
+    align-items: center;
+    justify-content: center;
+    width:400px ;
+    height:500px;
+    padding: 40px;
+}
+#information{
+display: flex;    
+color: white;
+}
+.worksExperience{
+    color:white;
+}
+#MeansOfContact{
+    margin-left: 70px;
+}
+.worksExperience h2,h3,h4 {
+    margin:3px; 
+}
+/*
 .RandomChoise{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 550px; 
-    
-}
-.Profile{
-    width: 250px;
-    margin: auto;
-    border-radius:50%
-
-}
-.tt{
- display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: blueviolet;
-    width:400px ;
-}
+    color:rgb(255, 255, 255);    
+} */

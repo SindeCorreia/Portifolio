@@ -14,8 +14,9 @@ return (
                 <a href="/Aboutme">About me</a>
                 <a href="/Project">Project</a>
                 <a href="/skill">Skill</a>
-                <a href="/works">Works</a>
-                <a href="/lupa">< img src={magnifier}/></a>  
+                <div className="after">
+                    <a href="/magnifier"><img src={magnifier}/></a> 
+                </div> 
             </div>
         </nav>
 </div>

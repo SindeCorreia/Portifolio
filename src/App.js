@@ -6,7 +6,6 @@ import Game from "./Components/Game/Game";
 import Project from './Components/Project/Project';
 import Aboutme from './Components/AboutMe/AboutMe';
 import Skill from './Components/Skill/Skill';
-import Works from './Components/Works/Works';
 import Feedback from'./Components/Feedback/Feedback';
 import Help from'./Components/Help/Help';
 import Home from './Components/Home/Home'
@@ -22,10 +21,8 @@ function App() {
          <Route path="/Aboutme" element={<Aboutme />} />
          <Route path="/Project" element={<Project />} />
          <Route path="/Skill" element={<Skill />} />
-         <Route path="/Works" element={<Works />} />
          <Route path="/feedback" element={<Feedback />} />
-         <Route path="/Works" element={<Works />} />
-         <Route path="/help" element={<Help />} />
+         <Route path="/magnifier" element={<Help />} />
          <Route path="/" element={<Home/>} />
         </Routes>
       </BrowserRouter>

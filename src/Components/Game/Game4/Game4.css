@@ -1,0 +1,10 @@
+#Game4{
+    align-items: center;
+    width: 110%;
+    background-color: rgb(150, 147, 192);
+    margin-top: 25%;
+    transform:rotate(50deg);
+    }
+#Game4 h1{    
+        margin-left:35%;
+    }

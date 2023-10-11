@@ -5,7 +5,7 @@ import Contact from "./Contact/Contact"
 function AboutMe  () {
 return(
     <div>
-        <div className="home">
+        <div className="AboutMe">
             <div className="Bio">
                 <Education/>
             </div>
