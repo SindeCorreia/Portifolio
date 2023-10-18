@@ -6,7 +6,7 @@ function Bio () {
 return(
     <div >
         <div className="description">
-            <h1>Sinde Jorge Jesus Correia</h1>
+            <h1>Sinde Jorge Jesus Correiaa</h1>
             <h1>Web developer Full-stack </h1>
             <p>I have recently completed an intensive </p> 
             <p>program in coding, I am looking forward to </p>
