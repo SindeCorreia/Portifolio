@@ -7,13 +7,13 @@ return (
     <div>
         <nav className="Navbar">
             <div className="Navbar-left">
-                <a href="/"><img src={homeimg}/>Home</a>
+                <a href="#house"><img src={homeimg}/>Home</a>
                 </div>
             <div className="Navbar-right">
-                <a href="/game">Game</a>
-                <a href="/Aboutme">About me</a>
-                <a href="/Project">Project</a>
-                <a href="/skill">Skill</a>
+                <a href="#Aboutme">About me</a>
+                 <a href="#Project">Project</a>
+                <a href="#game">Game</a>
+                <a href="#skill">Skill</a>
                 <div className="after">
                     <a href="/magnifier"><img src={magnifier}/></a> 
                 </div> 

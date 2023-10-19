@@ -1,3 +1,6 @@
 body {
     background-image:radial-gradient(circle, #2d5985, rgb(109, 154, 206));
   }
+  html{scroll-behavior: smooth;}
+.NavBar{
+}
