@@ -11,7 +11,9 @@ return(
             <p>I have recently completed an intensive </p> 
             <p>program in coding, I am looking forward to </p>
             <p>exploring job opportunities within the </p>
-            <p>front-end and full-stack areas</p>     
+            <div className="divline">
+                <p className="line">front-end and full-stack areas .</p>  
+            </div> 
         </div>
             <div className="Link">
                 <div className="GitHub">

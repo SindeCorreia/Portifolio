@@ -18,7 +18,19 @@
     margin: auto;
 }
 .description
-{color: white;}
+{color: white;
+
+}
+
+.divline{
+display: flex;
+}
+.line
+{
+margin-top:0px;
+border-right:2px solid;
+animation: blinkcusor 500ms infinite;
+}
 .Linkedin{
     width: 170px;
     background-color:#0A66C2;
@@ -29,3 +41,7 @@
     background-color:#141516;
     margin: auto;
 } 
+@keyframes blinkcusor {
+    from {border-right-color:white}
+   to {border-right-color:transparent}
+}
