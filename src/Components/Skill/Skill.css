@@ -1,0 +1,30 @@
+.skillimg {
+    width: 120px;
+    height: 120px;
+    margin :20px;
+
+}
+.Ability{
+    display: flex;
+}
+.Skill{
+    display: flex;
+    width:60%;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+.Skill1 {
+}
+.Skill2{ 
+    margin-left:0;
+   
+
+}
+
+.SkillDescription
+{   width:25%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; }

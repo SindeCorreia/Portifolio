@@ -1,13 +1,6 @@
 .Allproject{
-    display: flex;
-    height:500px;
-   justify-content:space-around
+    height:600px;
 }
 .Project{
-background-color: brown;
-width:400px;
-}
-.InformationProject{
-    background-color:chartreuse;
-    width:400px;
+
 }
