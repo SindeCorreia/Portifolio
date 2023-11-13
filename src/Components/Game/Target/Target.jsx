@@ -1,10 +1,10 @@
 import React from "react";
 import "./Game4.css";
-function Game4 () {
+function Target () {
 return(
     <div id="Game4">
-        <h1>briefly</h1>
+        <h1>Target</h1>
     </div>
     )
  }
- export default Game4;
+ export default Target;

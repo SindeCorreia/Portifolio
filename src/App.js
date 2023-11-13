@@ -5,7 +5,6 @@ import Footer from './Components/Footer/Footer';
 import Feedback from'./Components/Feedback/Feedback';
 import Help from'./Components/Help/Help';
 import Home from './Components/Home/Home'
-
 function App() {
   return (
     <div className="App">
@@ -18,7 +17,7 @@ function App() {
          <Route path="/" element={<Home/>} />
         </Routes>
       </BrowserRouter>
-      <Footer/>
+      <Footer/> 
     </div>
   )}
 

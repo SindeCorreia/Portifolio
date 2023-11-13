@@ -17,10 +17,10 @@ return(
         </div>
             <div className="Link">
                 <div className="GitHub">
-                    <a href="https://github.com/SindeCorreia" target="_blank"><GitHub/></a>
+                    <a href="https://github.com/SindeCorreia" target="blank"><GitHub/></a>
                 </div>
                 <div className="Linkedin">
-                    <a href="https://www.linkedin.com/in/sinde-correia" target="_blank"><Linkedin/></a>
+                    <a href="https://www.linkedin.com/in/sinde-correia" target="blank"><Linkedin/></a>
                 </div>
             </div>
     </div>

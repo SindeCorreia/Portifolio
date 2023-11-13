@@ -1,5 +1,4 @@
 import React from "react";
-import "./Linkedin.css";
 function Linkedin () {
 return(
     <div >

@@ -1,20 +1,26 @@
-import React from "react";
-import "./Education.css";
-import cv from "./dowloadcv.png"
-function Education () {
-return(
-    <div >
-        <h1 className="EducationInformation">Web Development , Wild Code School, Lisbon</h1>
-        <p>F E B R U A R Y 2 0 2 3 — M AY 2 0 2 3 </p> 
-        <p>This is a three-month of Full-stack Web development intensive training focused on JavaScript, HTML, and more technologies.</p>
-        <h1 className="EducationInformation">Environmental Engineering (Unfinished) , Instituto Superior de Agronomia, Lisbon </h1>
-        <p>S E P T E M B E R 2 0 1 8 — J U N E 2 0 2 1</p> 
-        
-    </div>
-       
+import React, { useState } from 'react';
+import certificate from "./Certificado.png"
+import "./Education.css"
+
+function Education() {
+    const [showCertificate, setShowCertificate] = useState(false);
+
+    return (
+        <div>
+            <h1 
+                className="EducationInformation" 
+                onMouseEnter={() => setShowCertificate(true)} 
+                onMouseLeave={() => setShowCertificate(false)}
+            >
+                Web Development, Wild Code School, Lisbon
+            </h1>
+            {showCertificate && <img src={certificate} alt="Certificate" className="CertificateImage" />}
+            <p>FEBRUARY 2023 — MAY 2023</p> 
+            <p>This is a three-month Full-stack Web development intensive training focused on JavaScript, HTML, and more technologies.</p>
+            <h1 className="EducationInformation">Environmental Engineering (Unfinished), Instituto Superior de Agronomia, Lisbon</h1>
+            <p>SEPTEMBER 2018 — JUNE 2021</p> 
+        </div>
     )
- }
- export default Education;
- 
+}
 
-
+export default Education;

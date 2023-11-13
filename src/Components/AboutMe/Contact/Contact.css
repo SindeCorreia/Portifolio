@@ -25,6 +25,9 @@ color: white;
 .worksExperience h2,h3,h4 {
     margin:3px; 
 }
+.CvImage{
+    width:200px;
+}
 /*
 .RandomChoise{
     display: flex;

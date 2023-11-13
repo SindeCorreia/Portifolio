@@ -1,8 +1,7 @@
 import React from "react";
-import "./GitHub.css";
 function GitHub () {
 return(
-    <div>
+    <div className="txtGitHub">
         <h1>GitHub</h1>
     </div>
     )

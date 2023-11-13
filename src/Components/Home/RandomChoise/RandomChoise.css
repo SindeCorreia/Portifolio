@@ -5,15 +5,23 @@
     height: 550px; 
 } 
 .Avatar{ 
-    display: flex;
     width: 250px;
     margin: auto;
     padding: 70px;
     border-radius:50%;
+    animation: none;
 }
-.wheel{
-    display: flex;
+.wheel {
     background-color: #082A4D;
-    width:400px ;
-    border-radius:50%
+    width: 400px;
+    border-radius: 50%;
+    animation: spin 20s linear infinite;
+    animation: none;
 }
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+

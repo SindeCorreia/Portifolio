@@ -1,10 +1,11 @@
-import React from "react";
-import "./Shilfter.css";
-function Shilfter () {
-return(
-    <div>
-        Shilfter            
+import React from 'react';
+
+function Shifter() {
+  return (
+    <div>a
     </div>
-    )
- }
- export default Shilfter;
+  );
+  
+}
+
+export default Shifter ;

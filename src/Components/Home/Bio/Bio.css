@@ -35,13 +35,20 @@ animation: blinkcusor 500ms infinite;
     width: 170px;
     background-color:#0A66C2;
     margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 .GitHub{
     width: 170px;
     background-color:#141516;
     margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
 } 
 @keyframes blinkcusor {
     from {border-right-color:white}
    to {border-right-color:transparent}
 }
+

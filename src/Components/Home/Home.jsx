@@ -2,7 +2,6 @@ import React from "react";
 import Bio from "./Bio/Bio"
 import Random from "./RandomChoise/RandomChoise"
 import Aboutme from '../AboutMe/AboutMe';
-import Footer from '../Footer/Footer'
 import Project from '../Project/Project'
 import Game from '../Game/Game'
 import Skill from '../Skill/Skill'
@@ -18,16 +17,22 @@ return(
                 <Random/>
             </div>
         </div>
-        <Footer/>
-        <div>
-        <div id="Aboutme"><Aboutme/></div>
-        <Footer/> 
-        <div id="Project"><Project/></div> 
-        <Footer/> 
-        <div id="game"><Game/></div>
-        <Footer/> 
-        <div id="skill"><Skill/></div>
+       <h1 className="titles">ABOUT ME</h1>
+        <div id="Aboutme">
+            <Aboutme/>
+        </div> 
+        <h1 className="titles">PROJECT</h1>
+        <div id="Project">
+            <Project/>
+        </div> 
+        <h1 className="titles">GAME</h1>
+        <div id="game">
+            <Game/>
         </div>
+        <h1 className="titles">SKILL</h1>
+        <div id="skill">
+            <Skill/>
+        </div>   
     </div>
     )
  }
