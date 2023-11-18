@@ -1,8 +1,11 @@
 import React from "react";
+import Linkedinpng from "./linkedin.png"
+
 function Linkedin () {
 return(
-    <div >
-        <h1>Linkedin</h1>
+    <div className="txtlink">
+        <h2>Linkedin</h2>
+        <img src={Linkedinpng} id="imglink" />
     </div>
     )
  }

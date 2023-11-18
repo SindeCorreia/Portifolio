@@ -17,16 +17,16 @@ return(
                 <Random/>
             </div>
         </div>
-       <h1 className="titles">ABOUT ME</h1>
         <div id="Aboutme">
+        <h1 className="titles">ABOUT ME</h1>
             <Aboutme/>
         </div> 
         <h1 className="titles">PROJECT</h1>
         <div id="Project">
             <Project/>
         </div> 
-        <h1 className="titles">GAME</h1>
         <div id="game">
+        <h1 className="titles">GAME</h1>
             <Game/>
         </div>
         <h1 className="titles">SKILL</h1>

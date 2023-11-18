@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import Clouds from "./Images/clouds.png";
-import MarioImage from "./Images/mario.gif"; // Assuming you have an image for Mario
-import PipeImage from "./Images/pipe.png"; // Assuming you have an image for the pipe
-import GameOverImage from "./Images/gameover.png"; // Assuming you have an image for Game Over
+import MarioImage from "./Images/mario.gif";
+import PipeImage from "./Images/pipe.png"; 
+import GameOverImage from "./Images/game-over.png"; 
 import "./Supermario.css";
 
 function Supermario() {

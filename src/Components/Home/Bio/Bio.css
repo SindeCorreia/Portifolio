@@ -9,6 +9,12 @@
     width: 170px;
     background-color:#0A66C2;
     margin: auto;
+    transition: background-color 0.5s ease-in;
+    border-radius: 6px;
+}
+.Linkedin :hover{
+    transition: background-color 0.5s ease-in;
+    background-color: #01073b;
 }
 .GitHub a {
     text-decoration: none;
@@ -16,10 +22,16 @@
     width: 170px;
     background-color:#141516;
     margin: auto;
+    transition: background-color 0.5s ease-in;
+    border-radius: 6px;
+}
+.GitHub :hover {
+    background-color: rgb(141, 80, 0);
+    transition: background-color 0.5s ease-in; 
 }
 .description
 {color: white;
-
+margin-bottom: 70px;
 }
 
 .divline{
@@ -33,22 +45,30 @@ animation: blinkcusor 500ms infinite;
 }
 .Linkedin{
     width: 170px;
-    background-color:#0A66C2;
     margin: auto;
     display: flex;
     align-items: center;
     text-align: center;
+
 }
 .GitHub{
     width: 170px;
-    background-color:#141516;
     margin: auto;
     display: flex;
     align-items: center;
-    text-align: center;
 } 
 @keyframes blinkcusor {
     from {border-right-color:white}
    to {border-right-color:transparent}
 }
+.txtlink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+#imgGitHub{
+}
+.txtlinkgit{
+
+}

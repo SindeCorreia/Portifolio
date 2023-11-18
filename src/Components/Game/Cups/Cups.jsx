@@ -1,5 +1,5 @@
 import React from "react";
-import "./Game5.css";
+import "./Cups.css";
 function Game5  () {
 return(
     <div id="Game5">

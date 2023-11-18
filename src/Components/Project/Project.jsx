@@ -1,30 +1,37 @@
+import {Link} from "react-router-dom"
 import React from 'react';
 import './Project.css';
 
 function Project() {
   const cardsData = [
     {
-      title: 'Online store',
+      title: 'Shilfter',
       image: 'https://via.placeholder.com/150',
-      topText: 'Online store',
+      topText: 'Shilfter',
+      routes:"/Shilfter",
+      url:"https://github.com/SindeCorreia/Quiz",
       button1Text: 'PLAY',
-      button2Text: 'CODE',
+      button2Text: 'DETAILS',
       description: 'I have used React to develop a responsive application that simulated a store with different products that could be added, searched, and wait-listed.',
     },
     {
       title: 'Calorie Tracker App',
       image: 'https://via.placeholder.com/150',
       topText: 'Calorie Tracker App',
+      url:"https://github.com/orgs/NutriPall/repositories",
+      routes:"/CalorieTracker ",
       button1Text: 'PLAY',
-      button2Text: 'CODE',
+      button2Text: 'DETAILS',
       description: 'This application included an API integration to fetch the macro-nutrients in all ingredients and build recipes. The user would be able to see all details after choosing the recipes (calories, recipes).',
     },
     {
       title: 'Delivery Website',
       image: 'https://via.placeholder.com/150',
       topText: 'Delivery Website',
+      url:"https://github.com/SindeCorreia/Quiz",
+      routes:"/DeliveryWebsite",
       button1Text: 'PLAY',
-      button2Text: 'CODE',
+      button2Text: 'DETAILS',
       description: 'This delivery website allowed customers to order food after they log in or create their account with an encrypted password. I have used SQL and React.',
     },
 
@@ -41,8 +48,8 @@ return (
           <div className="card-content">
             <h2>{card.topText}</h2>
             <div className="button-container">
-              <button className="Play-button">{card.button1Text}</button>
-              <button className="Code-button">{card.button2Text}</button>
+            <Link to={card.routes}><button className="Play-button">{card.button1Text}</button></Link>
+             <a href={card.url} rel="noopener noreferrer" target="_blank"><button className="Code-button">{card.button2Text}</button></a> 
             </div>
           </div>
         </div>
