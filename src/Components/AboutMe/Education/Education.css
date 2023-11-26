@@ -4,6 +4,9 @@
 .EducationInformation{
     color:white;
 }
-.CertificateImage{
-    width: 500px;
+.CvImage{
+    width:200px;
+}
+.none{
+    display: none;
 }

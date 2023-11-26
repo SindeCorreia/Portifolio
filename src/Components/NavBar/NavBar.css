@@ -1,7 +1,7 @@
 .Navbar{
     display: flex;
     width: 100% ;
-    background-color:#010e1b;
+    background-color:var(--nav-color);
     height:100px;
     position: fixed;   
     top: 0;
@@ -17,7 +17,8 @@
   }
   
 .Navbar-left {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 30px;
     padding-right: 17%;
   }

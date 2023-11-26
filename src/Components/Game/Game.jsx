@@ -33,6 +33,16 @@ function Game() {
 
     },
     {
+      title: 'Cups and Balls',
+      image: Cups,
+      topText: 'Cups and Balls',
+      url:"https://github.com/SindeCorreia/Cups-and-Balls",
+      routes:"/Cups",
+      button1Text: 'PLAY',
+      button2Text: 'DETAILS',
+      description: 'Welcome to "Cups and Bars", a simple and engaging game that challenges your observation and memory skills!.'
+    },
+    {
       title: 'Target Shooting',
       image: Target,
       topText: 'Target Shooting',
@@ -64,17 +74,7 @@ function Game() {
       button2Text: 'DETAILS',
       description: 'Welcome to our exciting General Culture Quiz, where we will test your knowledge on different areas.Prepare for stimulating and fun challenges as you enhance your understanding of these essential topics. Lets start!',
 
-    },
-    {
-      title: 'Cups and Balls',
-      image: Cups,
-      topText: 'Cups and Balls',
-      url:"https://github.com/SindeCorreia/Cups-and-Balls",
-      routes:"/Cups",
-      button1Text: 'PLAY',
-      button2Text: 'DETAILS',
-      description: 'Welcome to "Cups and Bars", a simple and engaging game that challenges your observation and memory skills!.'
-    }
+    }, 
   ];
 
   return (

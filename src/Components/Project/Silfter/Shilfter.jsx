@@ -2,10 +2,9 @@ import React from 'react';
 
 function Shifter() {
   return (
-    <div>a
+    <div>
+      Shilfter
     </div>
   );
-  
 }
-
 export default Shifter ;

@@ -1,5 +1,4 @@
 .Profile{
-    display: flex;
     background-color: #082A4D;
     width:160px ;
     border-radius:50%
@@ -11,6 +10,10 @@
     width:400px ;
     height:500px;
     padding: 40px;
+}
+.Educationfather{
+}
+.contactfather{
 }
 #information{
 display: flex;    
@@ -25,14 +28,9 @@ color: white;
 .worksExperience h2,h3,h4 {
     margin:3px; 
 }
-.CvImage{
-    width:200px;
+.CertificateImage{
+    width: 500px;
 }
-/*
-.RandomChoise{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 550px; 
-    color:rgb(255, 255, 255);    
-} */
+p{
+    color: rgb(181, 219, 196);
+}

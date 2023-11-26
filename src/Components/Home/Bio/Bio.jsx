@@ -12,7 +12,7 @@ return(
             <p>program in coding, I am looking forward to </p>
             <p>exploring job opportunities within the </p>
             <div className="divline">
-                <p className="line">front-end and full-stack areas .</p>  
+                <p className="line">front-end and full-stack areas.</p>  
             </div> 
         </div>
             <div className="Link">

@@ -3,7 +3,16 @@ import "./Delivery.css";
 function Delivery () {
 return(
     <div>
-        Delivery            
+        <p>Delivery  </p>    
+        <p>Delivery  </p>        
+
+        <p>Delivery  </p>        
+
+        <p>Delivery  </p>        
+
+        <p>Delivery  </p>        
+
+
     </div>
     )
  }

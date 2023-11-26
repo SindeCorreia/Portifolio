@@ -79,7 +79,7 @@ function Skill() {
       </div>
       <div className="SkillDescription">
         {currentSkill && (
-          <h1 id={`${currentSkill}Description`}>
+          <h1 className="textSkillDescription" id={`${currentSkill}Description`}>
             {currentSkill} 
           </h1>
         )}

@@ -2,7 +2,8 @@
     display:flex;
     background-color:#010e1b;
     justify-content: space-between;
-    height: 45px;
+    height: 30px;
+    padding: 20px;
 }
 .footerimg{
     width: 30px;

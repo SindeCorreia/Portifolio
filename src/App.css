@@ -1,6 +1,9 @@
 html{scroll-behavior: smooth;}
 body {
-    background-image:radial-gradient(circle, #001469, rgb(42, 90, 145));
+    --nav-color:#010e1b;
+    --body-color1:#001469;
+    --body-color2:rgb(42, 90, 145);
+    background-image:radial-gradient(circle,var(--body-color1),var(--body-color2));
     animation: degrade 3s infinite alternate ;
     background-size:500% 100%;
   }

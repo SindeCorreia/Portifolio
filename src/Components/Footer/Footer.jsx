@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Theme from "./ThemeButton/ThemeButton";
 import "./Footer.css";
+import Theme from "./ThemeButton/ThemeButton";
 import Whatapp from "./whatapp.png";
 import Instagram from "./instagram.png";
 import Help from "./Help.png";
