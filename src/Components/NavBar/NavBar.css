@@ -1,4 +1,4 @@
-.Navbar{
+.Navbardark{
     display: flex;
     width: 100% ;
     background-color:var(--nav-color);
@@ -8,12 +8,32 @@
     left: 0;
     z-index: 1;
 }
-.Navbar a{
+.NavbarLight{
+  display: flex;
+  width: 100% ;
+  background-color:var(--nav-colorlight);
+  height:100px;
+  position: fixed;   
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.Navbardark a {
     text-decoration: none;
     color: white;
     font-size: 21px;
     padding: 35px;  
     position: relative;
+  }
+  .Navbarlight a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    padding: 35px;  
+    position: relative;
+  }
+  #homeimg{
+    width:40px;
   }
   
 .Navbar-left {
@@ -29,7 +49,17 @@
 .after{
   display: none;
 }
-.Navbar a::after {
+.Navbardark a::after {
+  content: "";
+  position: absolute;
+  bottom:0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fce8e8;
+  transition: width 0.3s ease;
+}
+.Navbarlight a::after {
   content: "";
   position: absolute;
   bottom:0;
@@ -40,11 +70,12 @@
   transition: width 0.3s ease;
 }
 
-.Navbar a:hover::after {
+.Navbardark a:hover::after {
   width: 100%;
 }
-
-
-
-
-
+.Navbarlight a:hover::after {
+  width: 100%;
+}
+#houselink{
+  padding:0px;
+}

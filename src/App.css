@@ -1,6 +1,10 @@
-html{scroll-behavior: smooth;}
+html{scroll-behavior: smooth;
+box-sizing: border-box;
+margin-top: 100px;
+}
 body {
     --nav-color:#010e1b;
+    --nav-colorlight:#1a1e22;
     --body-color1:#001469;
     --body-color2:rgb(42, 90, 145);
     background-image:radial-gradient(circle,var(--body-color1),var(--body-color2));

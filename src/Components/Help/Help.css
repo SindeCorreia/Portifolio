@@ -1,0 +1,20 @@
+.help{
+    display: flex;
+}
+.Helptext {
+    color: rgb(181, 219, 196);
+    margin:50px ;
+}
+.Helpimg{
+    width:30%;
+}
+.containerHelptext{
+    width: 60%;
+}
+.figaPhone
+{display: flex;
+align-items: center;}
+#PcImagechange{width: 400px;
+}
+#PhoneImagechange{width: 200px;
+}

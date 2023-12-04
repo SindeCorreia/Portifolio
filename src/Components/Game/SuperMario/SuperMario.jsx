@@ -48,11 +48,10 @@ function Supermario() {
       }
     },10);
 
-    // Cleanup: clear interval when component unmounts
     return () => {
       clearInterval(loop);
     };
-  }, []); // Empty dependency array ensures this effect runs once after initial render
+  }, []); 
 
   return (
     <div className={`GameMaroioBoard ${isJumping ? "jump" : ""}`}>

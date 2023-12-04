@@ -1,10 +1,9 @@
 
 import React from 'react';
 import Cv from '../Contact/Cv.png';
+import Dowload from "./Dowload.png"
+import WIldcode from "./wildcode.png"
 import "./Education.css";
-
-
-import "./Education.css"
 
 function Education({ onButtonClick, imagemVisivelcv, naoimagemVisivelcv}) {
 
@@ -24,30 +23,12 @@ function Education({ onButtonClick, imagemVisivelcv, naoimagemVisivelcv}) {
             <p className={` ${imagemVisivelcv ?"none":""}`}>This is a three-month Full-stack Web development intensive training focused on JavaScript, HTML, and more technologies.</p>
             <h1 className="EducationInformation">Environmental Engineering (Unfinished), Instituto Superior de Agronomia, Lisbon</h1>
             <p>SEPTEMBER 2018 — JUNE 2021</p> 
+            <div className='downloadpdf'>
+              <a href="http://localhost:3000/Sinde_Correia_Web_Developer.pdf" download="Sinde_Correia_Web_Developer.pdf" className='linkimgdownloadcv'> <img src={Dowload} alt="CURRICULUM" id="imgdownloadcv"/>DOWNLOAD CERTIFICADE</a>
+              <a href="http://localhost:3000/CertificadoSinde.pdf" download="CertificadoSinde.pdf" className='linkWIldcode'> <img src={WIldcode} alt="Certificado" id="imgdownloadwild" />DOWNLOAD RESUME </a>
+
+            </div>
         </div>
     )
 }
-
 export default Education;
-
-
-
-/* Education Component
-import Cv from "../Contact/Cv.png";
-import React from 'react';
-
-function Education({ onButtonClick, imagemVisivelcv, naoimagemVisivelcv }) {
-  return (
-    <div>
-      <button
-        onMouseEnter={onButtonClick}
-        onMouseLeave={naoimagemVisivelcv}
-      >
-        Education
-      </button>
-      {imagemVisivelcv && <img src={Cv} alt="Imagem" />}
-    </div>
-  );
-};
-export default Education;*/
-

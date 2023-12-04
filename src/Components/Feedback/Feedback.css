@@ -1,5 +1,27 @@
 .feedback{
     width: 100%;
-    height:100px;
-    margin-top:500px;
+    height:100hv;
 }
+.FeedBackimprove{
+    display:flex;
+}
+.FeedBackOpinion{
+    width:40%;
+    
+}
+.FeedBackbox{
+    width:40%;
+    
+}
+.feedbacktext{
+    
+}
+.feedback-input {
+    width: 70%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Permite redimensionar verticalmente */
+}  

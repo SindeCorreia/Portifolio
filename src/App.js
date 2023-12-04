@@ -15,8 +15,6 @@ import Shifter from './Components/Project/Silfter/shilfter';
 import Delivery from './Components/Project/Delivery/Delivery';
 import Calory_Tracker from './Components/Project/Nutripal/Nutripal';
 
-
-
 function App() {
   return (
     <div className="App">
@@ -25,7 +23,7 @@ function App() {
       <BrowserRouter>
        <Routes>
          <Route path="/feedback" element={<Feedback />} />
-         <Route path="/magnifier" element={<Help />} />
+         <Route path="/Help" element={<Help />} />
          <Route path="/Mario" element={<Mario />} />
          <Route path="/Adventure" element={<Adventure />} />
          <Route path="/Quiz" element={<Quiz />} />
@@ -38,7 +36,7 @@ function App() {
          <Route path="/" element={<Home/>} />
         </Routes>
       </BrowserRouter>
-      <Footer/> 
+      <Footer/>
     </div>
   )}
 

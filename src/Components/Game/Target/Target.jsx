@@ -1,10 +1,16 @@
 import React from "react";
 import "./Target.css";
-function Target () {
-return(
-    <div id="Game4">
-        <h1>Target</h1>
-    </div>
-    )
- }
- export default Target;
+
+ function Target() {
+
+    return (
+      <div className="TargetGameBoard" >
+        <div className="game-board">
+         <h1>Targeat</h1>
+        </div>
+      </div>
+    );
+  }
+  
+  export default Target;
+  

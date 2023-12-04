@@ -10,3 +10,22 @@
 .none{
     display: none;
 }
+.downloadpdf{
+    display: flex;
+    align-items:center;
+}
+.linkWIldcode{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.downloadpdf a {
+    color: rgba(0, 195, 255, 0.685);
+    text-decoration:none;
+  }
+.linkimgdownloadcv{
+    display: flex;
+    flex-direction: column;
+    margin: auto;}
+#imgdownloadcv{width: 60PX;}
+#imgdownloadwild{width: 110PX;}

@@ -35,6 +35,13 @@
   .card .button-container {
     margin-top: 10px;
   }
+#imageproject{
+  max-width: 50%;
+  max-height: 100px;
+  object-fit: cover;
+  align-self: flex-start; 
+  
+}
   
  
   

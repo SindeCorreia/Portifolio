@@ -1,10 +1,16 @@
 import React from "react";
 import "./Cups.css";
-function Game5  () {
-return(
-    <div id="Game5">
-        <h1>briefly</h1>
-    </div>
-    )
- }
- export default Game5;
+
+ function Cups() {
+
+    return (
+      <div className="CupsGameBoard" >
+        <div className="game-board">
+         <h1>Cups</h1>
+        </div>
+      </div>
+    );
+  }
+  
+  export default Cups;
+  
