@@ -5,7 +5,6 @@ import Footer from './Components/Footer/Footer';
 import Feedback from'./Components/Feedback/Feedback';
 import Help from'./Components/Help/Help';
 import Home from './Components/Home/Home';
-import Mario from './Components/Game/SuperMario/Supermario';
 import Adventure from './Components/Game/Adventure/Adventure';
 import Quiz from './Components/Game/Quiz/Quiz';
 import Simon from './Components/Game/Simon/Simon';
@@ -24,7 +23,6 @@ function App() {
        <Routes>
          <Route path="/feedback" element={<Feedback />} />
          <Route path="/Help" element={<Help />} />
-         <Route path="/Mario" element={<Mario />} />
          <Route path="/Adventure" element={<Adventure />} />
          <Route path="/Quiz" element={<Quiz />} />
          <Route path="/Simon" element={<Simon />} />
