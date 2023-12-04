@@ -23,17 +23,6 @@ function App() {
       <div id='NavBar'><Navbar/></div>  
       <BrowserRouter>
        <Routes>
-         <Route path="/feedback" element={<Feedback />} />
-         <Route path="/Help" element={<Help />} />
-         <Route path="/Mario" element={<Mario />} />
-         <Route path="/Adventure" element={<Adventure />} />
-         <Route path="/Quiz" element={<Quiz />} />
-         <Route path="/Simon" element={<Simon />} />
-         <Route path="/Target" element={<Target />} />
-         <Route path="/Cups" element={<Cups />} />
-         <Route path="/Shifter" element={<Shifter />} />
-         <Route path="/DeliveryWebsite" element={<Delivery />} />
-         <Route path="/CalorieTracker" element={<Calory_tracker/>} />
          <Route path="/" element={<Home/>} />
         </Routes>
       </BrowserRouter>
