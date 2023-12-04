@@ -19,6 +19,7 @@ function Project() {
       button2Text: 'DETAILS',
       description: 'I have used React to develop a responsive application that simulated a store with different products that could be added, searched, and wait-listed.',
       hidePlayButton: true,
+
     },
     {
       title: 'Calorie Tracker App',
