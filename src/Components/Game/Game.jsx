@@ -5,7 +5,6 @@ import Simon from "./Simon.png"
 import Target from "./Target Shooting.png"
 import Cups from "./Cups and Balls.jpg"
 import Iasinde from "./IAsinde.jpg"
-
 import './Game.css';
 
 function Game() {
