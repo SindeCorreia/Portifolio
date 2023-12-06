@@ -18,9 +18,9 @@ import Calory_tracker from './Components/Project/Nutripal/Nutripal';
 function App() {
   return (
     <div className="App">
-      
+          <BrowserRouter>
+
       <div id='NavBar'><Navbar/></div>  
-      <BrowserRouter>
        <Routes>
          <Route path="/feedback" element={<Feedback/>} />
          <Route path="/Help" element={<Help/>} />
