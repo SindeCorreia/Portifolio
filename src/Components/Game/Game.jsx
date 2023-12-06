@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SuperMariopng from "./SuperMario.jpg"
 import Quiz from "./quizz.jpg"
 import Simon from "./Simon.png"
@@ -87,8 +88,8 @@ function Game() {
             <div className="card-content">
               <h2>{card.topText}</h2>
               <div className="button-container">
-           <a href={card.routes}> <button className="Play-button">{card.button1Text}</button> </a>
-            <a href={card.url} rel="noopener noreferrer" target="_blank"><button className="Code-button">{card.button2Text}</button></a>
+           <Link to={card.routes}> <button className="Play-button">{card.button1Text}</button> </Link>
+            <Link to={card.url} rel="noopener noreferrer" target="_blank"><button className="Code-button">{card.button2Text}</button></Link>
               </div>
             </div>
           </div>
