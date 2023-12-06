@@ -35,8 +35,8 @@ function App() {
          <Route path="/CalorieTracker" element={<Calory_tracker/>} />
          <Route path="/" element={<Home/>} />
         </Routes>
-      </BrowserRouter>
       <Footer/>
+      </BrowserRouter>
     </div>
   )}
 
