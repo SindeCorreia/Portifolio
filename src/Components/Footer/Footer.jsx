@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+{/*import React, { useState } from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import Theme from "./ThemeButton/ThemeButton";
@@ -40,4 +40,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Footer;*/}
