@@ -1,7 +1,13 @@
+.divline{margin:0px;}
 .Link{
     display: flex;
     text-decoration: none;
     color: white;
+}
+.txtlink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Linkedin a {
     text-decoration: none;
@@ -34,15 +40,6 @@
 margin-bottom: 70px;
 }
 
-.divline{
-display: flex;
-}
-.line
-{
-margin-top:0px;
-border-right:2px solid;
-animation: blinkcusor 500ms infinite;
-}
 .Linkedin{
     width: 170px;
     margin: auto;
@@ -57,18 +54,64 @@ animation: blinkcusor 500ms infinite;
     display: flex;
     align-items: center;
 } 
+.line
+{
+margin-top:0px;
+border-right:2px solid;
+animation: blinkcusor 500ms infinite;
+}
 @keyframes blinkcusor {
     from {border-right-color:white}
    to {border-right-color:transparent}
 }
-.txtlink{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.description h1,
+.description p {
+    opacity: 0;
 }
-#imgGitHub{
-}
-.txtlinkgit{
 
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.description h1,
+.description p {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.line0 {
+    animation: typing 1s steps(40) 0s forwards, fadeIn 1s 0s forwards;
+}
+
+.line1 {
+    animation: typing 2s steps(40) 1s forwards, fadeIn 1s 1s forwards;
+}
+
+.line2 {
+    animation: typing 3s steps(40) 2s forwards, fadeIn 1s 2s forwards;
+}
+
+.line3 {
+    animation: typing 4s steps(40) 3s forwards, fadeIn 1s 3s forwards;
+}
+
+.line4 {
+    animation: typing 5s steps(40) 4s forwards, fadeIn 1s 4s forwards;
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
 }

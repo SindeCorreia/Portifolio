@@ -1,4 +1,4 @@
-{/*import React, { useState } from "react";
+import React, { useState } from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import Theme from "./ThemeButton/ThemeButton";
@@ -29,15 +29,15 @@ function Footer() {
       <Link to={whatsAppLink} target="_blank" rel="noopener noreferrer">
         <img src={Whatappgray} alt="Whatapp" className="footerimg" />
       </Link>
-      <Link to="https://www.instagram.com/ani_matrix_studio/">
+      <Link to="https://www.instagram.com/ani_matrix_studio/" target="_blank" >
         <img src={Instagramgray} alt="Instagram" className="footerimg" />
       </Link>
       <Theme />
-      <Link href="/help">
+      <Link to="/Help">
         <img src={Helpgray} alt="Whatapp" className="footerimg" />
       </Link>
     </footer>
   );
 }
 
-export default Footer;*/}
+export default Footer;

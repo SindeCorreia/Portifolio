@@ -1,6 +1,7 @@
 import { BrowserRouter , Routes , Route } from 'react-router-dom';
 import './App.css';
-
+import Navbar from './Components/NavBar/NavBar';
+import Footer from './Components/Footer/Footer';
 import Feedback from'./Components/Feedback/Feedback';
 import Help from'./Components/Help/Help';
 import Home from './Components/Home/Home';
@@ -19,7 +20,7 @@ function App() {
     <div className="App">
           <BrowserRouter>
 
-      <div id='NavBar'></div>  
+      <div id='NavBar'><Navbar/></div>  
        <Routes>
          <Route path="/feedback" element={<Feedback/>} />
          <Route path="/Help" element={<Help/>} />
@@ -34,6 +35,7 @@ function App() {
          <Route path="/CalorieTracker" element={<Calory_tracker/>} />
          <Route path="/" element={<Home/>} />
         </Routes>
+     // <Footer/>
       </BrowserRouter>
     </div>
   )}

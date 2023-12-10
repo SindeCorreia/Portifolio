@@ -6,6 +6,7 @@
 }
 .Ability{
     display: flex;
+    overflow-y:hidden
 }
 .Skill{
     width:60%;
@@ -23,4 +24,5 @@
 .textSkillDescription{
     color: rgb(181, 219, 196);
 }
+
 

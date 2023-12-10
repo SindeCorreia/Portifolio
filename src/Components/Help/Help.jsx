@@ -62,11 +62,14 @@ function Help() {
             </h2>
         </div>
         <div className="Helpimg">
-                <div className="PcImage"> <img src={PcimageList[PccurrentIndex]} alt="" id="PcImagechange"/></div>
+                <div className="PcImage"> <img src={PcimageList[PccurrentIndex]} alt="PcImage" id="PcImagechange"/></div>
                 <div className="figaPhone">
-                   Figma <img src={Figma} alt="Figma" />
-                 <div className="PhoneImage"><img src={PhoneimageList[PhonecurrentIndex]} alt="" id="PhoneImagechange"/></div>
-                </div>
+                <div className="PhoneImage"><img src={PhoneimageList[PhonecurrentIndex]} alt="PhoneImage" id="PhoneImagechange"/></div>
+                <figure className="madefigma">
+                  <figcaption >MADE IN FIGMA</figcaption>
+                  <img src={Figma} alt="Figma" />
+                </figure>
+                </div> 
         </div>
     </div>
   );

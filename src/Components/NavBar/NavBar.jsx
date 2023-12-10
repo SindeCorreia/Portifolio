@@ -1,4 +1,4 @@
-{/*import React from "react";
+import React from "react";
 import "./NavBar.css";
 import { HashLink as Link } from "react-router-hash-link";
 import Homeblack from "./NavbarImg/Homeblack.png";
@@ -13,7 +13,7 @@ function Navbar() {
         <div className="Navbar-left">
           <Link smooth to="/#house" id="houselink">
             <img src={Homegray} alt="" id="homeimg" />
-            Homee
+            Home
           </Link>
         </div>
         <div className="Navbar-right">
@@ -39,4 +39,4 @@ function Navbar() {
     </div>
   );
 }
-export default Navbar;*/}
+export default Navbar;
