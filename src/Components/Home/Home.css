@@ -33,3 +33,6 @@ opacity: 0.9;
     display: none ;
     overflow-y:hidden
 }
+.changecomponent{
+    top: auto;
+}

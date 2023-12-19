@@ -1,9 +1,14 @@
 .feedback{
     width: 100%;
     height:100hv;
+    color: rgb(181, 219, 196);  
+
 }
+
 .FeedBackimprove{
     display:flex;
+}
+#FeedBackimprove{
 }
 .FeedBackOpinion{
     width:40%;
@@ -11,7 +16,6 @@
 }
 .FeedBackbox{
     width:40%;
-    
 }
 .feedbacktext{
     

@@ -2,6 +2,7 @@ import React from "react";
 import "./Bio.css";
 import GitHub from "./GitHub/GitHub";
 import Linkedin from "./Linkedin/Linkedin";
+import { Link } from "react-router-dom";
 function Bio () {
 return(
     <div >
@@ -15,10 +16,10 @@ return(
         </div>
         <div className="Link">
             <div className="GitHub">
-                <a href="https://github.com/SindeCorreia" target="blank"><GitHub/></a>
+                <Link to="https://github.com/SindeCorreia" target="blank"><GitHub/></Link>
             </div>
             <div className="Linkedin">
-                <a href="https://www.linkedin.com/in/sinde-correia" target="blank"><Linkedin/></a>
+                <Link to="https://www.linkedin.com/in/sinde-correia" target="blank"><Linkedin/></Link>
             </div>
         </div>
     </div>
