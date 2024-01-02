@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Project.css';
-import Shilfter from "./Shilfter.png";
+//import Shilfter from "./Shilfter.png";
 import Tracker from "./Tracker.png";
 import Portifolio from "./Portofolio.png";
 
 function Project() {
   const cardsData = [
-    {
+    /*{
       title: 'Shilfter',
       image:Shilfter,
       topText: 'Shilfter',
@@ -18,7 +18,7 @@ function Project() {
       description: 'I have used React to develop a responsive application that simulated a store with different products that could be added, searched, and wait-listed.',
       hidePlayButton: true,
 
-    },
+    },*/
     {
       title: 'Calorie Tracker App',
       image: Tracker,
@@ -53,8 +53,8 @@ return (
           <div className="card-content">
             <h2>{card.topText}</h2>
             <div className="button-container">
-            {/* {!card.hidePlayButton && <Link to={card.routes}><button className="Play-button">{card.button1Text}</button></Link>}*/}
-            {/*  <Link to={card.url} rel="noopener noreferrer" target="_blank"><button className="Code-button">{card.button2Text}</button></Link> */}
+            {!card.hidePlayButton && <Link to={card.routes}><button className="Play-button">{card.button1Text}</button></Link>}
+            <Link to={card.url} rel="noopener noreferrer" target="_blank"><button className="Code-button">{card.button2Text}</button></Link>
             </div>
           </div>
         </div>
