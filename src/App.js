@@ -18,7 +18,7 @@ import Navbar from './Components/NavBar/NavBar';
 function App() {
   return (
     <div className="App">
-      <div id='NavBar'></div>  
+      <div ><Navbar/></div>  
         aaaaa
     </div>
   )}
@@ -40,7 +40,7 @@ export default App;
 
 
 //<BrowserRouter>
-//<Navbar/>
+
  //<Routes>
   
   //</Routes>
