@@ -1,5 +1,6 @@
 import { BrowserRouter , Routes , Route } from 'react-router-dom';
 import './App.css';
+import Teste from './Components/teste';
 import Navbar from './Components/NavBar/NavBar';
 //import Footer from './Components/Footer/Footer';
 import Feedback from'./Components/Feedback/Feedback';
@@ -17,9 +18,9 @@ import Home from './Components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-      aa
-    </div>
+  <div className="App">
+   <Teste/> 
+  </div>
   )}
 
 
