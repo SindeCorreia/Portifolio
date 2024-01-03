@@ -4,7 +4,7 @@ import Navbar from './Components/NavBar/NavBar';
 //import Footer from './Components/Footer/Footer';
 import Feedback from'./Components/Feedback/Feedback';
 import Help from'./Components/Help/Help';
-//import Home from './Components/Home/Home';
+import Home from './Components/Home/Home';
 //import Mario from './Components/Game/SuperMario/Supermario';
 //import Adventure from './Components/Game/Adventure/Adventure';
 //import Quiz from './Components/Game/Quiz/Quiz';
@@ -20,6 +20,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
+      <Route path="/" element={<Home/>} />
       <Route path="/feedback" element={<Feedback/>} />
       <Route path="/Help" element={<Help/>} />
       </Routes>
@@ -30,7 +31,6 @@ function App() {
 
 export default App;
 // <Route path="/Shifter" element={<Shifter/>} />
-//<Route path="/" element={<Home/>} />
 //<Route path="/Mario" element={<Mario/>} />
 //<Route path="/DeliveryWebsite" element={<Delivery/>} />
 //<Route path="/CalorieTracker" element={<Calory_tracker/>} />
