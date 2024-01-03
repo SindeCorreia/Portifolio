@@ -1,6 +1,6 @@
 //import { BrowserRouter , Routes , Route } from 'react-router-dom';
 import './App.css';
-//import Navbar from './Components/NavBar/NavBar';
+import Navbar from './Components/NavBar/NavBar';
 //import Footer from './Components/Footer/Footer';
 //import Feedback from'./Components/Feedback/Feedback';
 //import Help from'./Components/Help/Help';
@@ -18,6 +18,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div id='NavBar'><Navbar/></div>  
         aaaaa
     </div>
   )}
@@ -40,7 +41,6 @@ export default App;
 
 //<BrowserRouter>
 
-//<div id='NavBar'><Navbar/></div>  
  //<Routes>
   
   //</Routes>
