@@ -1,4 +1,4 @@
-import { BrowserRouter , Routes , Route } from 'react-router-dom';
+import { BrowserRouter , Router , Route ,Switch} from 'react-router-dom';
 import './App.css';
 import Teste from './Components/teste';
 import Navbar from './Components/NavBar/NavBar';
@@ -6,6 +6,7 @@ import Navbar from './Components/NavBar/NavBar';
 import Feedback from'./Components/Feedback/Feedback';
 import Help from'./Components/Help/Help';
 import Home from './Components/Home/Home';
+import Footer from "./Components/Footer/Footer"
 //import Mario from './Components/Game/SuperMario/Supermario';
 //import Adventure from './Components/Game/Adventure/Adventure';
 //import Quiz from './Components/Game/Quiz/Quiz';
@@ -18,8 +19,15 @@ import Home from './Components/Home/Home';
 
 function App() {
   return (
-  <div className="App">
-   <Teste/> 
+  <div className="App">  
+  <Router>
+    <Switch>
+    <Route path="/" element={<Home/>} />
+      <Footer/>
+    </Switch>
+</Router>
+
+
   </div>
   )}
 
@@ -44,7 +52,7 @@ export default App;
  //<Footer/>
 //</BrowserRouter>
 
-//<Route path="/" element={<Home/>} />
+//
   //    <Route path="/feedback" element={<Feedback/>} />
     //  <Route path="/Help" element={<Help/>} />
 
