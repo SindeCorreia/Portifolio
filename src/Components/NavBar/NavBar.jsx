@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import { Link } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 import Homeblack from "./NavbarImg/Homeblack.png";
 import Homegray from "./NavbarImg/Homegray.png";
 import magnifierblack from "./NavbarImg/magnifierblack.png";
