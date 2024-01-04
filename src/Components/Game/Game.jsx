@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import SuperMariopng from "./SuperMario.jpg"
 import Quiz from "./quizz.jpg"
 import Simon from "./Simon.png"
@@ -89,7 +89,7 @@ function Game() {
               <h2>{card.topText}</h2>
               <div className="button-container">
          { /* <Link to={card.routes}> <button className="Play-button">{card.button1Text}</button> </Link> */}
-           {/* <Link to={card.url} rel="noopener noreferrer" target="_blank"><button className="Code-button">{card.button2Text}</button></Link> */}
+            <Link to={card.url} rel="noopener noreferrer" target="_blank"><button className="Code-button">{card.button2Text}</button></Link> 
               </div>
             </div>
           </div>
