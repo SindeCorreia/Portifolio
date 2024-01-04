@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Teste from './Components/teste';
 import Navbar from './Components/NavBar/NavBar';
@@ -12,6 +12,11 @@ function App() {
     <div className="App"> 
       <Navbar />
       <Home />
+      <Router>
+      <Switch>
+        <Route path="/oo"  component={Feedback} />
+      </Switch>
+    </Router>
       <Footer />
     </div>
   );
