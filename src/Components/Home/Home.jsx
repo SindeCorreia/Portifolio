@@ -3,8 +3,8 @@ import { useMediaQuery } from '@react-hook/media-query';
 import Bio from "./Bio/Bio";
 import Random from "./RandomChoise/RandomChoise";
 import Aboutme from '../AboutMe/AboutMe';
-//import Project from '../Project/Project';
-//import Game from '../Game/Game';
+import Project from '../Project/Project';
+import Game from '../Game/Game';
 import Skill from '../Skill/Skill';
 import Change from "../ResponsiveImj/change.png"
 import './Home.css';
@@ -43,11 +43,11 @@ function Home() {
       </div>
       <h1 className="titles">PROJECT</h1>
       <div id="Project">
-        {/*<Project />*/}
+        <Project />
       </div>
       <div id="game">
         <h1 className="titles">GAME</h1>
-         {/*<Game />*/}
+         <Game />
       </div>
       <h1 className="titles">SKILL</h1>
       <div id="skill">
