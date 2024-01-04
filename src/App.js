@@ -1,5 +1,5 @@
 
-import { Link, Route, Router as WouterRouter, Routes } from 'wouter';
+import { Link, Route, Routes , Router as WouterRouter} from 'wouter';
 import React from 'react';
 import Navbar from './Components/NavBar/NavBar';
 import Feedback from './Components/Feedback/Feedback';
