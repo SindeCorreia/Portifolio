@@ -13,7 +13,6 @@ function App() {
     <Router>
       <div className="App"> 
         <Navbar />
-        <Route path="/" exact component={Home} />
         <Route path="/oo" component={Feedback} />
         <Footer />
       </div>
