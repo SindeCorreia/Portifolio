@@ -1,13 +1,13 @@
 import React from 'react';
 //import { Link } from 'react-router-dom';
 import './Project.css';
-//import Shilfter from "./Shilfter.png";
+import Shilfter from "./Shilfter.png";
 import Tracker from "./Tracker.png";
 import Portifolio from "./Portofolio.png";
 
 function Project() {
   const cardsData = [
-    /*{
+    {
       title: 'Shilfter',
       image:Shilfter,
       topText: 'Shilfter',
@@ -18,7 +18,7 @@ function Project() {
       description: 'I have used React to develop a responsive application that simulated a store with different products that could be added, searched, and wait-listed.',
       hidePlayButton: true,
 
-    },*/
+    },
     {
       title: 'Calorie Tracker App',
       image: Tracker,
