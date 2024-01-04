@@ -1,6 +1,5 @@
 import React from "react";
 import "./NavBar.css";
-import { Link } from "react-router-dom";
 import Homeblack from "./NavbarImg/Homeblack.png";
 import Homegray from "./NavbarImg/Homegray.png";
 import magnifierblack from "./NavbarImg/magnifierblack.png";
@@ -11,28 +10,28 @@ function Navbar() {
     <div>
       <nav className="Navbardark">
         <div className="Navbar-left">
-          <Link smooth to="/#house" id="houselink">
+          <a smooth to="/#house" id="houselink">
             <img src={Homegray} alt="" id="homeimg" />
             Home
-          </Link>
+          </a>
         </div>
         <div className="Navbar-right">
-          <Link smooth to="/#Aboutme">
+          <a smooth to="/#Aboutme">
             About me
-          </Link>
-          <Link smooth to="/#Project">
+          </a>
+          <a smooth to="/#Project">
             Project
-          </Link>
-          <Link smooth to="/#game">
+          </a>
+          <a smooth to="/#game">
             Game
-          </Link>
-          <Link smooth to="/#skill">
+          </a>
+          <a smooth to="/#skill">
             Skill
-          </Link>
+          </a>
           <div className="after">
-            <Link smooth to="/magnifier">
+            <a smooth to="/magnifier">
               <img src={magnifiergray} alt="" />
-            </Link>
+            </a>
           </div>
         </div>
       </nav>

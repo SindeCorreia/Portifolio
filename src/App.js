@@ -1,26 +1,27 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import './App.css';
-import Teste from './Components/teste';
+
+import { Link, Route, Router as WouterRouter, Routes } from 'wouter';
+import React from 'react';
 import Navbar from './Components/NavBar/NavBar';
 import Feedback from './Components/Feedback/Feedback';
 import Help from './Components/Help/Help';
 import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
 
-function App() {
+const App = () => {
   return (
-    <div className="App"> 
+    <div className="App">
       <Navbar />
-      <Router>
+      <WouterRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/feed" element={<Feedback />} />
           <Route path="/help" element={<Help />} />
         </Routes>
-      </Router>
+      </WouterRouter>
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
+
