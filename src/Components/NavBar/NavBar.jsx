@@ -17,7 +17,7 @@ function Navbar() {
           </Link>
         </div>
         <div className="Navbar-right">
-          <Link smooth to="/#Aboutme">
+          <Link smooth to="#Aboutme">
             About me
           </Link>
           <Link smooth to="/#Project">
