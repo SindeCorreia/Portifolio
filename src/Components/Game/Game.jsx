@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import SuperMariopng from "./SuperMario.jpg"
-import Quiz from "./quizz.jpg"
-import Simon from "./Simon.png"
-import Target from "./Target Shooting.png"
-import Cups from "./Cups and Balls.jpg"
-import Iasinde from "./IAsinde.jpg"
+import SuperMariopng from "./SuperMario.jpg";
+import Quiz from "./quizz.jpg";
+import Simon from "./Simon.png";
+import Target from "./Target Shooting.png";
+import Cups from "./Cups and Balls.jpg";
+import Iasinde from "./IAsinde.jpg";
 import './Game.css';
 
 function Game() {
