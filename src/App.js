@@ -18,7 +18,6 @@ const App = () => {
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/Help" element={<Help />} />
           <Route path="/Mario" element={<Mario />} />
-
         </Routes>
       <Footer />
     </div>
