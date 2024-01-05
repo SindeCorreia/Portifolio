@@ -1,10 +1,11 @@
 import React from 'react';
-import SuperMariopng from "./SuperMario.jpg";
-import Quiz from "./quizz.jpg";
-import Simon from "./Simon.png";
-import Target from "./Target Shooting.png";
-import Cups from "./Cups and Balls.jpg";
-import Iasinde from "./IAsinde.jpg";
+import { Link } from 'react-router-dom';
+import SuperMariopng from "./SuperMario.jpg"
+import Quiz from "./quizz.jpg"
+import Simon from "./Simon.png"
+import Target from "./Target Shooting.png"
+import Cups from "./Cups and Balls.jpg"
+import Iasinde from "./IAsinde.jpg"
 import './Game.css';
 
 function Game() {
@@ -88,7 +89,7 @@ function Game() {
               <h2>{card.topText}</h2>
               <div className="button-container">
          { /* <Link to={card.routes}> <button className="Play-button">{card.button1Text}</button> </Link> */}
-            <a to={card.url} rel="noopener noreferrer" target="_blank"><button className="Code-button">{card.button2Text}</button></a> 
+            <a href={card.url} rel="noopener noreferrer" target="_blank"><button className="Code-button">{card.button2Text}</button></a> 
               </div>
             </div>
           </div>
