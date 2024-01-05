@@ -6,6 +6,13 @@ import Feedback from './Components/Feedback/Feedback';
 import Help from './Components/Help/Help';
 import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
+import Mario from './Components/Game/SuperMario/Supermario';
+import Simon from './Components/Game/Simon/Simon';
+import Cups from './Components/Game/Cups/Cups';
+import Target from './Components/Game/Target/Target';
+import Adventure from './Components/Game/Adventure/Adventure';
+import Quiz from './Components/Game/Quiz/Quiz';
+
 import './App.css';
 
 const App = () => {
@@ -16,6 +23,12 @@ const App = () => {
         <Route path="/" element={<Home />} />
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/Help" element={<Help />} />
+          <Route path="/Quiz" element={<Quiz />} />
+          <Route path="/Adventure" element={<Adventure />} />
+          <Route path="/Target" element={<Target />} />
+          <Route path="/Cups" element={<Cups />} />
+          <Route path="/Simon" element={<Simon />} />
+          <Route path="/Mario" element={<Mario />} />
         </Routes>
       <Footer />
     </div>
