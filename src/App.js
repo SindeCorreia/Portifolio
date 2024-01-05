@@ -23,12 +23,6 @@ const App = () => {
         <Route path="/" element={<Home />} />
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/Help" element={<Help />} />
-          <Route path="/Quiz" element={<Quiz />} />
-          <Route path="/Adventure" element={<Adventure />} />
-          <Route path="/Target" element={<Target />} />
-          <Route path="/Cups" element={<Cups />} />
-          <Route path="/Simon" element={<Simon />} />
-          <Route path="/Mario" element={<Mario />} />
         </Routes>
       <Footer />
     </div>
