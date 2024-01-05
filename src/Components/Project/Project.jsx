@@ -54,7 +54,7 @@ return (
             <h2>{card.topText}</h2>
             <div className="button-container">
           {/*  {!card.hidePlayButton && <Link to={card.routes}><button className="Play-button">{card.button1Text}</button></Link>} */}
-            <a to={card.url} rel="noopener noreferrer" target="_blank"><button className="Code-button">{card.button2Text}</button></a>
+            <a href={card.url} rel="noopener noreferrer" target="_blank"><button className="Code-button">{card.button2Text}</button></a>
             </div>
           </div>
         </div>
