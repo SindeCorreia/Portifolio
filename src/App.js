@@ -6,6 +6,7 @@ import Feedback from './Components/Feedback/Feedback';
 import Help from './Components/Help/Help';
 import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
+import Mario from './Components/Game/SuperMario/Supermario'
 import './App.css';
 
 const App = () => {
@@ -16,6 +17,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/Help" element={<Help />} />
+          <Route path="/Mario" element={<Mario />} />
+
         </Routes>
       <Footer />
     </div>
