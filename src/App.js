@@ -13,7 +13,7 @@ const App = () => {
       <Navbar />
         <Routes>
         <Route path="/" element={<Home />} />
-          <Route path="/feed" element={<Feedback />} />
+          <Route path="/feedback" element={<Feedback />} />
         </Routes>
       <Footer />
     </div>
