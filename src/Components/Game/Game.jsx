@@ -88,7 +88,7 @@ function Game() {
             <div className="card-content">
               <h2>{card.topText}</h2>
               <div className="button-container">
-             <a to={card.routes}> <button className="Play-button">{card.button1Text}</button> </a>
+         { /* <Link to={card.routes}> <button className="Play-button">{card.button1Text}</button> </Link> */}
             <a to={card.url} rel="noopener noreferrer" target="_blank"><button className="Code-button">{card.button2Text}</button></a> 
               </div>
             </div>
