@@ -53,7 +53,7 @@ return (
           <div className="card-content">
             <h2>{card.topText}</h2>
             <div className="button-container">
-          {/*  {!card.hidePlayButton && <Link to={card.routes}><button className="Play-button">{card.button1Text}</button></Link>} */}
+           {!card.hidePlayButton && <a href={card.routes}><button className="Play-button">{card.button1Text}</button></a>} 
             <a href={card.url} rel="noopener noreferrer" target="_blank"><button className="Code-button">{card.button2Text}</button></a>
             </div>
           </div>
