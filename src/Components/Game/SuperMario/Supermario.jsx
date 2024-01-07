@@ -1,6 +1,4 @@
 
-import "./Supermario.css";
-
 function Supermario() {
   
 
