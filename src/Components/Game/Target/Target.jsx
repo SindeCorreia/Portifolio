@@ -7,6 +7,19 @@ import "./Target.css";
       <div className="TargetGameBoard" >
         <div className="game-board">
          <h1>Targeat</h1>
+         <h1>Targeat</h1>
+         <h1>Targeat</h1>
+         <h1>Targeat</h1>
+         <h1>Targeat</h1>
+         <h1>Targeat</h1>
+         <h1>Targeat</h1>
+         <h1>Targeat</h1>
+         <h1>Targeat</h1>
+         <h1>Targeat</h1>
+         <h1>Targeat</h1>
+         <h1>Targeat</h1>
+         <h1>Targeat</h1>
+
         </div>
       </div>
     );

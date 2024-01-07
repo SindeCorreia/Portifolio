@@ -5,6 +5,19 @@ return(
     <div className="QuizGameBoard" >
     <div className="game-board">
      <h1>Quiz</h1>
+     <h1>Quiz</h1>
+     <h1>Quiz</h1>
+     <h1>Quiz</h1>
+     <h1>Quiz</h1>
+     <h1>Quiz</h1>
+     <h1>Quiz</h1>
+     <h1>Quiz</h1>
+     <h1>Quiz</h1>
+     <h1>Quiz</h1>
+     <h1>Quiz</h1>
+     <h1>Quiz</h1>
+     <h1>Quiz</h1>
+
     </div>
   </div>
     )
