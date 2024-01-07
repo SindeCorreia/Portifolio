@@ -6,6 +6,22 @@ import React from 'react';
     <div className="SimonGameBoard" >
     <div className="game-board">
      <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+     <h1>Simon</h1>
+
     </div>
   </div>
     
