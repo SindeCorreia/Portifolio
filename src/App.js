@@ -11,7 +11,7 @@ import Cups from './Components/Game/Cups/Cups';
 import Target from './Components/Game/Target/Target';
 import Quiz from './Components/Game/Quiz/Quiz';
 import Adventure from './Components/Game/Adventure/Adventure';
-
+import Mario from './Components/Game/SuperMario/Supermario'
 import './App.css';
 
 const App = () => {
@@ -27,6 +27,7 @@ const App = () => {
           <Route path="/Target" element={<Target />} />
           <Route path="/Quiz" element={<Quiz />} />
           <Route path="/Adventure" element={<Adventure />} />
+          <Route path="/Mario" element={<Mario />} />
         </Routes>
       <Footer />
     </div>
