@@ -1,3 +1,4 @@
+import "./mario.css";
 
 function Supermario() {
   
