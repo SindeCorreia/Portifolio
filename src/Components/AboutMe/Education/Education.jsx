@@ -25,8 +25,7 @@ function Education({ onButtonClick, imagemVisivelcv, naoimagemVisivelcv}) {
             <p>SEPTEMBER 2018 — JUNE 2021</p> 
             <div className='downloadpdf'>
               <a href="http://localhost:3000/Sinde_Correia_Web_Developer.pdf" download="Sinde_Correia_Web_Developer.pdf" className='linkimgdownloadcv'> <img src={Dowload} alt="CURRICULUM" id="imgdownloadcv"/>DOWNLOAD RESUME </a>
-              <a href="http://localhost:3000/CertificadoSinde.pdf" download="CertificadoSinde.pdf" className='linkWIldcode'> <img src={WIldcode} alt="Certificado" id="imgdownloadwild" />DOWNLOAD CERTIFICADE  </a>
-
+              <a href={process.env.PUBLIC_URL + '/CertificadoSinde.pdf'} download="CertificadoSinde.pdf" className='linkWIldcode'> <img src={WIldcode} alt="Certificado" id="imgdownloadwild" />DOWNLOAD CERTIFICADE  </a>
             </div>
         </div>
     )
