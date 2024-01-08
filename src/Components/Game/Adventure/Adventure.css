@@ -19,6 +19,8 @@
     background-color: rgb(0, 0, 0);
     position: relative;
     animation: spin 5s linear infinite; 
+    z-index: 1;
+
   } 
 ;
   .slice {
