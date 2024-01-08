@@ -12,16 +12,45 @@
     overflow: hidden;
     background: linear-gradient(#87ceeb, #e0f6ff);
 }
-.circulo {
-    width: 100px;
-    height: 100px;
+.circle {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    background: conic-gradient(
-      from -90deg,
-      red 0deg 120deg,
-      blue 120deg 240deg,
-      green 240deg 360deg
-    );
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    animation: spin 5s linear infinite; 
+  } 
+;
+  .slice {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    ;
+
   }
   
+  #slice1 {
+    transform: rotate(0deg);
+    background-color:conic-gradient(
+        red 0deg 120deg,
+    )
+  }
+  
+  #slice2 {
+    transform: rotate(120deg);
+    background-color:conic-gradient(
+        blue 120deg 240deg,
+        )  }
+  
+  #slice3 {
+    transform: rotate(240deg);
+    background-color:conic-gradient(
+        green 240deg 360deg
+        )  }
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg); 
+    }
+  }
   
