@@ -4,20 +4,12 @@ function Adventure  () {
 return(
     <div className="AdventureGameBoard" >
     <div className="game-board">
-     <h1>Adventure</h1>
-     <h1>Adventure</h1>
-     <h1>Adventure</h1>
-     <h1>Adventure</h1>
-     <h1>Adventure</h1>
-     <h1>Adventure</h1>
-     <h1>Adventure</h1>
-     <h1>Adventure</h1>
-     <h1>Adventure</h1>
-     <h1>Adventure</h1>
-     <h1>Adventure</h1>
-     <h1>Adventure</h1>
-     <h1>Adventure</h1>
-     <h1>Adventure</h1>
+    <div class="circle">
+  <div class="slice" id="slice1"></div>
+  <div class="slice" id="slice2"></div>
+  <div class="slice" id="slice3"></div>
+</div>
+
 
     </div>
   </div>

@@ -12,3 +12,40 @@
     overflow: hidden;
     background: linear-gradient(#87ceeb, #e0f6ff);
 }
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: lightgray;
+    position: relative;
+    animation: spin 5s linear infinite; /* Adicionando a animação aqui */
+  }
+  
+  .slice {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  
+  #slice1 {
+    transform: rotate(0deg);
+    background-color: red;
+  }
+  
+  #slice2 {
+    transform: rotate(120deg);
+    background-color: blue;
+  }
+  
+  #slice3 {
+    transform: rotate(240deg);
+    background-color: green;
+  }
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg); /* Define o giro completo */
+    }
+  }
+  
