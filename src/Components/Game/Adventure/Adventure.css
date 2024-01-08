@@ -33,7 +33,8 @@
     transform: rotate(0deg);
     background-color:conic-gradient(
         red 0deg 120deg,
-    )
+    );
+    z-index: 3;
   }
   
   #slice2 {
