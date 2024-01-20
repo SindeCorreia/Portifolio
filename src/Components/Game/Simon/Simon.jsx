@@ -1,31 +1,48 @@
-import React from 'react';
-
- function Simon () {
-
-  return (
-    <div className="SimonGameBoard" >
-    <div className="game-board">
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-     <h1>Simon</h1>
-
+import React from "react";
+import "./Simon.css";
+function Simon  () {
+return(
+  <div className="Adventure">
+  <div classname="container">
+    <div className="bolhas">
+    <span style={{ "--i": 13 }}></span>
+    <span style={{ "--i": 5 }}></span>
+    <span style={{ "--i": 4 }}></span>
+    <span style={{ "--i": 10 }}></span>
+    <span style={{ "--i": 9 }}></span>
+    <span style={{ "--i": 8 }}></span>
+    <span style={{ "--i": 5 }}></span>
+    <span style={{ "--i": 4 }}></span>
+    <span style={{ "--i": 11 }}></span>
+    <span style={{ "--i": 7 }}></span>
+    <span style={{ "--i": 6 }}></span>
+    <span style={{ "--i": 8 }}></span>
+    <span style={{ "--i": 14 }}></span>
+    <span style={{ "--i": 11 }}></span>
+    <span style={{ "--i": 4 }}></span>
+    <span style={{ "--i": 5 }}></span>
+    <span style={{ "--i": 3 }}></span>
+    <span style={{ "--i": 8 }}></span>
+    <span style={{ "--i": 4 }}></span>
+    <span style={{ "--i": 11 }}></span>
+    <span style={{ "--i": 11 }}></span>
+    <span style={{ "--i": 2 }}></span>
+    <span style={{ "--i": 12 }}></span>
+    <span style={{ "--i": 6 }}></span>
+    <span style={{ "--i": 14 }}></span>
+    <span style={{ "--i": 13 }}></span>
+    <span style={{ "--i": 1 }}></span>
+    <span style={{ "--i": 9 }}></span>
+    <span style={{ "--i": 14 }}></span>
+    <span style={{ "--i": 14 }}></span>
+    <span style={{ "--i": 6 }}></span>
+    <span style={{ "--i": 12 }}></span>
+    <span style={{ "--i": 4 }}></span>
+    <span style={{ "--i": 8 }}></span>
+    <span style={{ "--i": 3 }}></span>
+    </div>  
     </div>
+    <p className="unavailable-text">Available 20-01-2024</p>
   </div>
-    
-  )
-}
-
-export default Simon;
+  )};
+ export default Simon;

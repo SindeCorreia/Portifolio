@@ -36,7 +36,7 @@ function Contact({ imagemVisivel, onButtonClickcv, nao  }) {
   return (
     <div className='contactfather'>
       <div className='Details'>
-        <div id='information' onMouseEnter={onButtonClickcv} onMouseLeave={nao} >
+        <div id='information'  >
           <img src={Profile} className={`Profile ${imagemVisivel ?"none":""}`} alt='profile' />
           <div id='MeansOfContact' className={`  ${imagemVisivel ?"none":""}`} >
             <p>Lisbon</p>

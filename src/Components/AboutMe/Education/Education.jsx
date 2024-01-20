@@ -4,6 +4,7 @@ import Cv from '../Contact/Cv.png';
 import Dowload from "./Dowload.png"
 import WIldcode from "./wildcode.png"
 import "./Education.css";
+import I from './i.png';
 
 function Education({ onButtonClick, imagemVisivelcv, naoimagemVisivelcv}) {
 
@@ -12,10 +13,11 @@ function Education({ onButtonClick, imagemVisivelcv, naoimagemVisivelcv}) {
 
             <h1 
                 className={`EducationInformation ${imagemVisivelcv ?"none":""}`} 
-                onMouseEnter={onButtonClick}
-                onMouseLeave={naoimagemVisivelcv}
+                
             >
-                Web Development, Wild Code School, Lisbon
+                Web Development, Wild Code School, Lisbon 
+                <img onMouseEnter={onButtonClick}
+                onMouseLeave={naoimagemVisivelcv} src={I} alt="" />
             </h1>
             {imagemVisivelcv && <img src={Cv} className='CvImage' alt="Imagem" />}
 

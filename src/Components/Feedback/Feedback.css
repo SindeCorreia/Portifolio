@@ -1,14 +1,17 @@
 .feedback{
     width: 100%;
     height:100hv;
-    color: rgb(181, 219, 196);  
+    color: rgb(181, 219, 196); 
 
 }
 
 .FeedBackimprove{
     display:flex;
+    justify-content: space-around;
 }
 #FeedBackimprove{
+    
+
 }
 .FeedBackOpinion{
     width:40%;
@@ -18,6 +21,8 @@
     width:40%;
 }
 .feedbacktext{
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .feedback-input {
@@ -29,3 +34,7 @@
     border-radius: 5px;
     resize: vertical; /* Permite redimensionar verticalmente */
 }  
+.fristfeedback{
+    display: flex;
+    justify-content: center;
+}

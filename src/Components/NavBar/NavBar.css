@@ -41,14 +41,22 @@
     margin-right: auto;
     padding: 30px;
     padding-right: 17%;
+    display: flex;
     
   }
 .Navbar-right {
     display: flex;
     margin: auto;
+    align-items: center;
   }
-.after{
-  display: none;
+.magnifier img{
+  width: 50px;
+  border-radius: 100%;
+  background-color:#012342;
+  border:gray;
+  opacity: 0.6;
+
+
 }
 .Navbardark a::after {
   content: "";
@@ -79,4 +87,10 @@
 }
 #houselink{
   padding:0px;
+}
+.magnifier input {
+  border-radius: 30px;
+  height: 5vh;
+}
+.magnifier{
 }

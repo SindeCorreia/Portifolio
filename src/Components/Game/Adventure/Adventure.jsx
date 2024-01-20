@@ -1,18 +1,51 @@
-import React from "react";
+import React from 'react';
 import "./Adventure.css";
-function Adventure  () {
-return(
-    <div className="AdventureGameBoard" >
-    <div className="game-board">
-     <div class="circle">
-  <div class="slice" id="slice1"></div>
-  <div class="slice" id="slice2"></div>
-  <div class="slice" id="slice3"></div>
-</div>
 
-
+function Adventure () {
+return (
+  
+    <div className="Adventure">
+  <div classname="container">
+    <div className="bolhas">
+    <span style={{ "--i": 13 }}></span>
+    <span style={{ "--i": 5 }}></span>
+    <span style={{ "--i": 4 }}></span>
+    <span style={{ "--i": 10 }}></span>
+    <span style={{ "--i": 9 }}></span>
+    <span style={{ "--i": 8 }}></span>
+    <span style={{ "--i": 5 }}></span>
+    <span style={{ "--i": 4 }}></span>
+    <span style={{ "--i": 11 }}></span>
+    <span style={{ "--i": 7 }}></span>
+    <span style={{ "--i": 6 }}></span>
+    <span style={{ "--i": 8 }}></span>
+    <span style={{ "--i": 14 }}></span>
+    <span style={{ "--i": 11 }}></span>
+    <span style={{ "--i": 4 }}></span>
+    <span style={{ "--i": 5 }}></span>
+    <span style={{ "--i": 3 }}></span>
+    <span style={{ "--i": 8 }}></span>
+    <span style={{ "--i": 4 }}></span>
+    <span style={{ "--i": 11 }}></span>
+    <span style={{ "--i": 11 }}></span>
+    <span style={{ "--i": 2 }}></span>
+    <span style={{ "--i": 12 }}></span>
+    <span style={{ "--i": 6 }}></span>
+    <span style={{ "--i": 14 }}></span>
+    <span style={{ "--i": 13 }}></span>
+    <span style={{ "--i": 1 }}></span>
+    <span style={{ "--i": 9 }}></span>
+    <span style={{ "--i": 14 }}></span>
+    <span style={{ "--i": 14 }}></span>
+    <span style={{ "--i": 6 }}></span>
+    <span style={{ "--i": 12 }}></span>
+    <span style={{ "--i": 4 }}></span>
+    <span style={{ "--i": 8 }}></span>
+    <span style={{ "--i": 3 }}></span>
+    </div>  
     </div>
+    <p className="unavailable-text">Available 09-02-2024</p>
   </div>
-    )
- }
- export default Adventure;
+  )};
+
+export default Adventure;

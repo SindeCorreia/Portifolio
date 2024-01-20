@@ -41,15 +41,15 @@ function Home() {
         <h1 className="titles">ABOUT ME</h1>
        <Aboutme />
       </div>
-      <h1 className="titles">PROJECT</h1>
-      <div id="Project">
+      <h1 className="titles" id="Project">PROJECTS</h1>
+      <div >
         <Project />
       </div>
       <div id="game">
-        <h1 className="titles">GAME</h1>
+        <h1 className="titles">GAMES</h1>
          <Game />
       </div>
-      <h1 className="titles">SKILL</h1>
+      <h1 className="titles">SKILLS</h1>
       <div id="skill">
         <Skill />
       </div>

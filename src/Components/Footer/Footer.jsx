@@ -16,7 +16,7 @@ import CopyRightgray from "./Footerimg/copyleftgray.png";
 
 function Footer() {
   const phoneNumber = '00351930630601'; 
-  const message = 'Olá Sinde vim pelo portifólio !Tudo bem contigo';
+  const message = 'Olá Sinde vim pelo portifólio! Tudo bem contigo';
   const whatsAppLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (

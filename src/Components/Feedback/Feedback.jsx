@@ -28,7 +28,7 @@ function Feedback() {
 
   return (
     <div className="feedback">
-      <div>
+      <div className="fristfeedback">
         <h1 id="feedbackimprove">I would like your feedback to improve my website</h1>
       </div>
       <div className="FeedBackimprove">
@@ -42,6 +42,10 @@ function Feedback() {
         </div>
         <div className="FeedBackbox">
           <h1>Please select your feedback category below</h1>
+          <button>Suggestion</button>         
+          <button>Something is not working</button>
+          <button>Compliment</button>
+
         </div>
         {showPopup && (
         <div className="popup">
