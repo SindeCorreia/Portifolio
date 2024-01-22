@@ -2,28 +2,19 @@
     width: 100%;
     height:100hv;
     color: rgb(181, 219, 196); 
-
 }
-
 .FeedBackimprove{
     display:flex;
     justify-content: space-around;
 }
-#FeedBackimprove{
-    
-
-}
 .FeedBackOpinion{
-    width:40%;
-    
+    width:40%; 
 }
 .FeedBackbox{
     width:40%;
 }
-.feedbacktext{
-    margin-left: auto;
-    margin-right: auto;
-    
+#textarea  {
+    text-align: center;
 }
 .feedback-input {
     width: 70%;
@@ -32,9 +23,14 @@
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    resize: vertical; /* Permite redimensionar verticalmente */
+    resize: vertical; 
 }  
 .fristfeedback{
     display: flex;
     justify-content: center;
 }
+.feedbacktext h1 {
+    width: 70%;
+    margin-bottom: 0px;
+    text-align: center
+;}
