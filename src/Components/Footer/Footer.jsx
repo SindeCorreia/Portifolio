@@ -32,7 +32,6 @@ function Footer() {
       <Link to="https://www.instagram.com/ani_matrix_studio/" target="_blank" >
         <img src={Instagramgray} alt="Instagram" className="footerimg" />
       </Link>
-      <Theme />
       <Link to="/Help">
         <img src={Helpgray} alt="Whatapp" className="footerimg" />
       </Link>
