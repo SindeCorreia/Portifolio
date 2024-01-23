@@ -36,7 +36,7 @@ function Project() {
       topText: 'Portifolio',
       url:"https://github.com/SindeCorreia/Portifolio",
       button2Text: 'DETAILS',
-      description: 'Essa aplicação react Inclui com informaçoes sobre sinde correia como projectos ,jogos ...A processo de criação dessa app e os game e projectos includos nela fez utilização de uma vas linguagem   .',
+      description: 'React application with SQL and Node.js integration where you can obtain information about the projects and games developed by Sinde Correia',
       hidePlayButton: true,
     },
 

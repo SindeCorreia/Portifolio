@@ -18,7 +18,7 @@ function Game() {
       routes:"/Mario",
       button1Text: 'PLAY',
       button2Text: 'DETAILS',
-      description: " Welcome to Super Mario Jumper, a thrilling homage to the classic Super Mario Bros. Control Mario, jump skillfully, and conquer obstacles. Developed with CSS, HTML, and JavaScript, this game embodies standard web technologies.",
+      description: " Welcome to Super Mario Jumper,  Control Mario, jump skillfully, and conquer obstacles. Developed with CSS, HTML, and JavaScript.",
     },
     {
       title: 'Simon',
@@ -28,7 +28,7 @@ function Game() {
       routes:"/Simon",
       button1Text: 'PLAY',
       button2Text: 'DETAILS',
-      description: 'Welcome to Simon Memory Challenge, an immersive game inspired by the electronic classic Simon. Challenge your memory and observation skills in this online version, experiencing captivating colorful sequences.Developed with JSX,CSS',
+      description: 'Welcome to Simon Memory Challenge, Challenge your memory  skills .Developed with JSX,CSS',
 
     },
     {
@@ -49,7 +49,7 @@ function Game() {
       routes:"/Target",
       button1Text: 'PLAY',
       button2Text: 'DETAILS',
-      description: 'Welcome to Target Shooting, a captivating aiming game where you point and shoot with the mouse. Developed using Python, CSS, and HTML, this game provides an exciting experience, challenging your precision skills',
+      description: 'Welcome to Target Shooting, a captivating aiming game where you point and shoot with the mouse. Developed using Python, CSS, and HTML.',
 
     },
     {
@@ -60,7 +60,7 @@ function Game() {
       routes:"/Adventure",
       button1Text: 'PLAY',
       button2Text: 'DETAILS',
-      description: 'In the "Adventure Programmer" game, explore 2D virtual environments, solving logic puzzles and deciphering algorithms to reverse the damage caused by the Acifneb virus. Digital rescue is crucial, and only you have the skills to save the age of automation.',
+      description: 'In the "Adventure Programmer" game, explore 2D virtual environments, solving logic puzzles and deciphering algorithms to reverse the damage caused by the Acifneb virus.',
 
     },
     {
@@ -71,7 +71,7 @@ function Game() {
       routes:"/Quiz",
       button1Text: 'PLAY',
       button2Text: 'DETAILS',
-      description: 'Welcome to our exciting General Culture Quiz, where we will test your knowledge on different areas.Prepare for stimulating and fun challenges as you enhance your understanding of these essential topics. Lets start!',
+      description: 'Welcome to our exciting General Culture Quiz, where we will test your knowledge on different areas!',
 
     }, 
   ];
@@ -100,3 +100,5 @@ function Game() {
 }
 
 export default Game;
+
+{/*In the "Adventure Programmer" game, explore 2D virtual environments, solving logic puzzles and deciphering algorithms to reverse the damage caused by the Acifneb virus. Digital rescue is crucial, and only you have the skills to save the age of automation.*/}
