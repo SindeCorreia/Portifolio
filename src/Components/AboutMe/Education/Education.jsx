@@ -6,23 +6,22 @@ import WIldcode from "./wildcode.png"
 import "./Education.css";
 import I from './i.png';
 
-function Education({ onButtonClick, imagemVisivelcv, naoimagemVisivelcv}) {
+function Education({ onButtonClick,  naoimagemVisivelcv}) {
 
     return (
         <div className='Educationfather'>     
 
             <h1 
-                className={`EducationInformation ${imagemVisivelcv ?"none":""}`} 
+                className={"EducationInformation" } 
                 
             >
                 Web Development, Wild Code School, Lisbon 
                 <img onMouseEnter={onButtonClick}
-                onMouseLeave={naoimagemVisivelcv} src={I} alt="" />
+                onMouseLeave={naoimagemVisivelcv} src={I} alt="" className='Iicon'/>
             </h1>
-            {imagemVisivelcv && <img src={Cv} className='CvImage' alt="Imagem" />}
 
-            <p className={` ${imagemVisivelcv ?"none":""}`}>FEBRUARY 2023 — MAY 2023</p> 
-            <p className={` ${imagemVisivelcv ?"none":""}`}>This is a three-month Full-stack Web development intensive training focused on JavaScript, HTML, and more technologies.</p>
+            <p >FEBRUARY 2023 — MAY 2023</p> 
+            <p >This is a three-month Full-stack Web development intensive training focused on JavaScript, HTML, and more technologies.</p>
             <h1 className="EducationInformation">Environmental Engineering (Unfinished), Instituto Superior de Agronomia, Lisbon</h1>
             <p>SEPTEMBER 2018 — JUNE 2021</p> 
             <div className='downloadpdf'>

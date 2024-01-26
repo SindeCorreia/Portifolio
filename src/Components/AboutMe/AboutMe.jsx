@@ -6,11 +6,7 @@ import Contact from './Contact/Contact';
 
 const AboutMe = () => {
   const [imagemVisivel, setImagemVisivel] = useState(false);
-  const [imagemVisivelcv, setImagemVisivelcv] = useState(false);
 
-  const kkk = () => {
-    setImagemVisivelcv(true);
-  };
 
   const mostrarImagem = () => {
     setImagemVisivel(true);
@@ -20,9 +16,6 @@ const AboutMe = () => {
     setImagemVisivel(false);
   };
 
-  const naokkk = () => {
-    setImagemVisivelcv(false);
-  };
   const [showEducation, setshowEducation] = useState(true);
   const isMobile = useMediaQuery('(max-width: 768px)');
 
@@ -42,10 +35,10 @@ const AboutMe = () => {
     
     <div className='AboutMe'>
         <div className="Bio"> 
-             <Education onButtonClick={mostrarImagem} imagemVisivelcv={imagemVisivelcv} naoimagemVisivelcv={naomostrarImagem} />
+             <Education onButtonClick={mostrarImagem}  naoimagemVisivelcv={naomostrarImagem} />
         </div>
         <div className="Random">  
-            <Contact imagemVisivel={imagemVisivel} onButtonClickcv={kkk} nao={naokkk} />
+            <Contact imagemVisivel={imagemVisivel}  />
         </div>
     </div>)}
     </div>

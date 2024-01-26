@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import SuperMariopng from "./SuperMario.jpg";
+import SuperMariopng from "./SuperMario.png";
 import Quiz from "./quizz.jpg";
 import Simon from "./Simon.png";
 import Target from "./Target Shooting.png";
@@ -15,7 +15,7 @@ function Game() {
       image: SuperMariopng,
       topText: 'SuperMario',
       url:"https://github.com/SindeCorreia/Mariogame",
-      routes:"/Mario",
+      routes:"/Mariomenu",
       button1Text: 'PLAY',
       button2Text: 'DETAILS',
       description: " Welcome to Super Mario Jumper,  Control Mario, jump skillfully, and conquer obstacles. Developed with CSS, HTML, and JavaScript.",

@@ -44,7 +44,7 @@ import "./Cups.css";
     <span style={{ "--i": 3 }}></span>
     </div>  
     </div>
-    <p className="unavailable-text">Available 22-01-2024</p>
+    <p className="unavailable-text">Available 28-01-2024</p>
   </div>
   )};
   

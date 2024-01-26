@@ -4,7 +4,7 @@ import Profile from './SindeCorreia.jpg';
 import Certificate from "../Education/Certificado.png"
 
 
-function Contact({ imagemVisivel, onButtonClickcv, nao  }) {
+function Contact({ imagemVisivel }) {
   const [selectedWork, setSelectedWork] = useState(null);
 
   const Jobs = [

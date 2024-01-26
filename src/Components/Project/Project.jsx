@@ -27,7 +27,7 @@ function Project() {
       routes:"/CalorieTracker ",
       button1Text: 'PLAY',
       button2Text: 'DETAILS',
-      description: 'This application included an API integration to fetch the macro-nutrients in all ingredients and build recipes. The user would be able to see all details after choosing the recipes (calories, recipes).',
+      description: 'This application included an API integration to fetch the macro-nutrients in all ingredients and build recipes. The user would be able to see all details after choosing the recipes.',
       hidePlayButton: true,
     },
     {
